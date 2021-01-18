@@ -1,8 +1,8 @@
 while True:
 	print("what you want to do?")
 	print("1 add")
-	print("2 substrac")
-	print("3 multipy")
+	print("2 subtract")
+	print("3 multiply")
 	print("4 divide")
 	print("you want to exit press 'Q' , 'q' ")
 		
@@ -15,10 +15,10 @@ while True:
 		print("the sum of these two number",num1 + num2)
 		
 	elif choise== 2:
-		print("the substrac of these two number",num1 - num2)
+		print("the subtract of these two number",num1 - num2)
 		
 	elif choise== 3:
-		print("the muliply of these two number",num1 * num2)
+		print("the multiply of these two number",num1 * num2)
 		
 	elif choise == 4:
 		print("the divide of these two number",num1 / num2)
