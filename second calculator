@@ -1,0 +1,27 @@
+while True:
+	print("what you want to do?")
+	print("1 add")
+	print("2 substrac")
+	print("3 multipy")
+	print("4 divide")
+	print("you want to exit press 'Q' , 'q' ")
+		
+	choise= int(input("Enter you choise: "))
+	
+	num1= int(input("Enter first number: "))
+	num2= int(input("Enter second number: " ))
+	
+	if choise == 1:
+		print("the sum of these two number",num1 + num2)
+		
+	elif choise== 2:
+		print("the substrac of these two number",num1 - num2)
+		
+	elif choise== 3:
+		print("the muliply of these two number",num1 * num2)
+		
+	elif choise == 4:
+		print("the divide of these two number",num1 / num2)
+		
+	if exit == 'Q' 'q':
+		break
