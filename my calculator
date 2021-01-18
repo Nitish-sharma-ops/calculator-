@@ -1,0 +1,28 @@
+print("Welcome to my calculator")
+while True:
+	print("What do you want ?")
+	print("1 aad")
+	print("2 substraction")
+	print("3 multiply")
+	print("4 divide")
+	
+	choise1 = float(input("Enter your operators \n"))
+	num1= int(input("Enter the first number \n"))
+	num2= int(input("Enter the second number \n"))
+	
+	if choise1 == 1:
+		print(num1+num2)
+	
+	elif choise1 == 2:
+		print("your ans\n num1-num2")
+	
+	elif choise1 == 3:
+		print("your ans \n num1*num2")
+	
+	elif choise1 == 4:
+		print("your ans \n num1/num2")
+		
+	else:
+		print("invalid operetor")
+	
+	
